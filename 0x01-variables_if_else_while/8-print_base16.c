@@ -1,18 +1,23 @@
 #include <stdio.h>
 
 /**
- * main - prints the lowercase alphabet in reverse,
+ * main - print all numbers of base 16 in lowercase,
  * followed by a newline, using putchar
  * Return: Always 0 (success)
  */
 int main(void)
 {
+	int n;
 	char ch;
 
-	for (ch = 'z'; ch >= 'a'; ch--)
+	for (n = 48; n < 58; n++)
+	{
+		putchar(n);
+	}
+	for (ch = 'a'; ch <= 'f'; ch++)
 	{
 		putchar(ch);
 	}
-	putchar('\n');
+	putchar('\n')
 	return (0);
 }
