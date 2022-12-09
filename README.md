@@ -59,5 +59,6 @@
 
 * [0x14-bit_manipulation](/0x14-bit_manipulation)
 
+* [0x15-file_io](/0x15-file_io)
 
 As is, all files in respective directories with a README file
