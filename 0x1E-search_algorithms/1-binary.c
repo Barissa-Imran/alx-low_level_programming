@@ -1,5 +1,5 @@
 #incude "search_algos.h"
-
+#include <stddef.h>
 /**
  * binary_search - Searches for a value in a sorted array
  * of intergers using binary search.
